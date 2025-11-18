@@ -1,0 +1,70 @@
+Roadmap Name,Display Title,Agent,Agent Focus,Type,Order,URL,Related Roadmaps
+frontend,Frontend Developer,1,Frontend & Web,role-roadmap,1,https://roadmap.sh/frontend,"full-stack, javascript, nodejs, react, angular, vue, design-system"
+html,HTML,1,Frontend & Web,skill-roadmap,,https://roadmap.sh/html,
+css,CSS,1,Frontend & Web,skill-roadmap,,https://roadmap.sh/css,
+javascript,JavaScript,1,Frontend & Web,skill-roadmap,,https://roadmap.sh/javascript,
+typescript,TypeScript,1,Frontend & Web,skill-roadmap,,https://roadmap.sh/typescript,
+react,React,1,Frontend & Web,skill-roadmap,2,https://roadmap.sh/react,"frontend, typescript, javascript, angular, vue, nodejs"
+vue,Vue.js,1,Frontend & Web,skill-roadmap,,https://roadmap.sh/vue,
+angular,Angular,1,Frontend & Web,skill-roadmap,,https://roadmap.sh/angular,
+nextjs,Next.js,1,Frontend & Web,skill-roadmap,,https://roadmap.sh/nextjs,
+design-system,Design Systems,1,Frontend & Web,skill-roadmap,,https://roadmap.sh/design-system,
+backend,Backend Developer,2,Backend & API,role-roadmap,2,https://roadmap.sh/backend,"frontend, full-stack, system-design, python, devops, javascript, nodejs, postgresql-dba"
+nodejs,Node.js,2,Backend & API,skill-roadmap,,https://roadmap.sh/nodejs,
+python,Python Developer,2,Backend & API,hybrid,7,https://roadmap.sh/python,"backend, devops, golang, javascript, nodejs"
+java,Java,2,Backend & API,skill-roadmap,,https://roadmap.sh/java,
+golang,Go (Golang),2,Backend & API,skill-roadmap,,https://roadmap.sh/golang,
+php,PHP,2,Backend & API,skill-roadmap,,https://roadmap.sh/php,
+spring-boot,Spring Boot,2,Backend & API,skill-roadmap,,https://roadmap.sh/spring-boot,
+aspnet-core,ASP.NET Core,2,Backend & API,skill-roadmap,,https://roadmap.sh/aspnet-core,
+laravel,Laravel,2,Backend & API,skill-roadmap,,https://roadmap.sh/laravel,
+api-design,API Design,2,Backend & API,skill-roadmap,,https://roadmap.sh/api-design,
+devops,DevOps Engineer,3,DevOps & Infrastructure,role-roadmap,3,https://roadmap.sh/devops,"backend, docker, kubernetes, python, java, golang, javascript, nodejs"
+docker,Docker,3,DevOps & Infrastructure,skill-roadmap,14,https://roadmap.sh/docker,"devops, backend, kubernetes, linux, aws"
+kubernetes,Kubernetes,3,DevOps & Infrastructure,skill-roadmap,14,https://roadmap.sh/kubernetes,"docker, devops, cloudflare, backend"
+terraform,Terraform,3,DevOps & Infrastructure,skill-roadmap,,https://roadmap.sh/terraform,
+linux,Linux,3,DevOps & Infrastructure,skill-roadmap,,https://roadmap.sh/linux,
+aws,Amazon Web Services,3,DevOps & Infrastructure,skill-roadmap,,https://roadmap.sh/aws,
+cloudflare,Cloudflare,3,DevOps & Infrastructure,skill-roadmap,,https://roadmap.sh/cloudflare,
+git-github,Git and GitHub,3,DevOps & Infrastructure,skill-roadmap,,https://roadmap.sh/git-github,
+shell-bash,Bash/Shell Scripting,3,DevOps & Infrastructure,skill-roadmap,,https://roadmap.sh/shell-bash,
+system-design,System Design,3,DevOps & Infrastructure,skill-roadmap,,https://roadmap.sh/system-design,
+ai-engineer,AI Engineer,4,Data AI & ML,role-roadmap,4,https://roadmap.sh/ai-engineer,"ai-data-scientist, prompt-engineering, data-analyst, python"
+ai-data-scientist,AI and Data Scientist,4,Data AI & ML,role-roadmap,,https://roadmap.sh/ai-data-scientist,
+ai-agents,AI Agents Specialist,4,Data AI & ML,role-roadmap,,https://roadmap.sh/ai-agents,
+ai-red-teaming,AI Red Teaming,4,Data AI & ML,role-roadmap,,https://roadmap.sh/ai-red-teaming,
+data-analyst,Data Analyst,4,Data AI & ML,role-roadmap,,https://roadmap.sh/data-analyst,
+data-engineer,Data Engineer,4,Data AI & ML,role-roadmap,,https://roadmap.sh/data-engineer,
+bi-analyst,Business Intelligence Analyst,4,Data AI & ML,role-roadmap,,https://roadmap.sh/bi-analyst,
+machine-learning,Machine Learning,4,Data AI & ML,skill-roadmap,,https://roadmap.sh/machine-learning,
+mlops,MLOps Engineer,4,Data AI & ML,role-roadmap,,https://roadmap.sh/mlops,
+prompt-engineering,Prompt Engineering,4,Data AI & ML,skill-roadmap,14,https://roadmap.sh/prompt-engineering,"ai-engineer, ai-agents, ai-data-scientist, data-analyst, mlops"
+android,Android Developer,5,Mobile & Cross-Platform,role-roadmap,4.7,https://roadmap.sh/android,"react-native, flutter, java, spring-boot, rust"
+ios,iOS Developer,5,Mobile & Cross-Platform,role-roadmap,,https://roadmap.sh/ios,
+flutter,Flutter Developer,5,Mobile & Cross-Platform,role-roadmap,,https://roadmap.sh/flutter,
+react-native,React Native,5,Mobile & Cross-Platform,role-roadmap,,https://roadmap.sh/react-native,
+swift-ui,SwiftUI,5,Mobile & Cross-Platform,skill-roadmap,,https://roadmap.sh/swift-ui,
+kotlin,Kotlin,5,Mobile & Cross-Platform,skill-roadmap,,https://roadmap.sh/kotlin,
+rust,Rust,5,Mobile & Cross-Platform,skill-roadmap,,https://roadmap.sh/rust,
+cpp,C++,5,Mobile & Cross-Platform,skill-roadmap,,https://roadmap.sh/cpp,
+game-developer,Game Developer,5,Mobile & Cross-Platform,role-roadmap,,https://roadmap.sh/game-developer,
+server-side-game-developer,Server Side Game Dev,5,Mobile & Cross-Platform,role-roadmap,,https://roadmap.sh/server-side-game-developer,
+postgresql-dba,PostgreSQL DBA,6,Database & Architecture,role-roadmap,,https://roadmap.sh/postgresql-dba,
+sql,SQL,6,Database & Architecture,skill-roadmap,,https://roadmap.sh/sql,
+mongodb,MongoDB,6,Database & Architecture,skill-roadmap,,https://roadmap.sh/mongodb,
+redis,Redis,6,Database & Architecture,skill-roadmap,,https://roadmap.sh/redis,
+software-architect,Software Architect,6,Database & Architecture,role-roadmap,,https://roadmap.sh/software-architect,
+software-design-architecture,Software Design & Architecture,6,Database & Architecture,skill-roadmap,,https://roadmap.sh/software-design-architecture,
+computer-science,Computer Science,6,Database & Architecture,skill-roadmap,,https://roadmap.sh/computer-science,"linux, php, blockchain, aws, devops, software-design-architecture"
+datastructures-and-algorithms,Data Structures & Algorithms,6,Database & Architecture,skill-roadmap,,https://roadmap.sh/datastructures-and-algorithms,
+code-review,Code Review,6,Database & Architecture,skill-roadmap,,https://roadmap.sh/code-review,
+graphql,GraphQL,6,Database & Architecture,skill-roadmap,,https://roadmap.sh/graphql,
+full-stack,Full Stack Developer,7,Specialized & Management,role-roadmap,3,https://roadmap.sh/full-stack,"frontend, backend, devops, react, nodejs, docker"
+qa,QA Engineer,7,Specialized & Management,role-roadmap,,https://roadmap.sh/qa,
+blockchain,Blockchain Developer,7,Specialized & Management,role-roadmap,,https://roadmap.sh/blockchain,"linux, php, aws, devops, software-design-architecture"
+cyber-security,Cyber Security,7,Specialized & Management,role-roadmap,,https://roadmap.sh/cyber-security,
+ux-design,UX Designer,7,Specialized & Management,role-roadmap,,https://roadmap.sh/ux-design,
+engineering-manager,Engineering Manager,7,Specialized & Management,role-roadmap,,https://roadmap.sh/engineering-manager,
+product-manager,Product Manager,7,Specialized & Management,role-roadmap,,https://roadmap.sh/product-manager,
+technical-writer,Technical Writer,7,Specialized & Management,role-roadmap,,https://roadmap.sh/technical-writer,
+devrel,Developer Relations,7,Specialized & Management,role-roadmap,,https://roadmap.sh/devrel,
