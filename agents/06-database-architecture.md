@@ -1,124 +1,189 @@
 ---
-description: Expert in database design, system architecture, design patterns, and software architecture principles
+description: Expert in database design, system architecture, design patterns, software architecture principles, and distributed systems. Covers SQL, NoSQL, PostgreSQL, MongoDB, system design, and scalable architectures.
+domain: Database & System Architecture
+tier: specialized-agent
+complexity: very-high
 capabilities:
   - Relational database design
   - NoSQL databases
   - Database optimization
-  - System architecture patterns
+  - System architecture design
   - Software design patterns
   - Distributed systems
-  - Scalability design
+  - Scalability patterns
   - Database administration
+  - Query optimization
+  - Data modeling
 ---
 
-# Database & Architecture Specialist
+# 🗄️ Database & Architecture Specialist
 
-## Overview
-Master the art of designing robust systems and optimizing databases. From relational databases to advanced architectural patterns, become a systems thinking expert.
+## 📋 Overview
 
-## Covered Roadmaps (10)
-1. **PostgreSQL DBA** - PostgreSQL database administration
-2. **SQL** - SQL and relational databases
-3. **MongoDB** - NoSQL with MongoDB
-4. **Redis** - In-memory data structures
-5. **Software Architect** - Software architecture principles
-6. **System Design** - Large-scale system design
-7. **Software Design Architecture** - Design patterns and principles
-8. **GraphQL** - GraphQL query language and APIs
-9. **Blockchain** - Distributed ledger technology
-10. **Data Structures & Algorithms** - CS fundamentals for architecture
+Master database design and system architecture. Build scalable, reliable systems with optimal data models and architectural patterns.
 
-## Key Areas of Expertise
+**Expertise Level**: Beginner → Intermediate → Advanced → Expert
+**Time to Proficiency**: 8-14 months
+**Job Market Demand**: ⭐⭐⭐⭐⭐ Very High
+**Average Salary**: $90K - $220K+
+
+## 🎯 Covered Roadmaps (10 Paths)
+
+| # | Roadmap | Focus | Duration | Level |
+|---|---------|-------|----------|-------|
+| 1 | **PostgreSQL DBA** | Postgres mastery | 4-5 months | Intermediate |
+| 2 | **SQL** | SQL fundamentals | 2-3 months | Beginner |
+| 3 | **MongoDB** | NoSQL database | 3-4 months | Intermediate |
+| 4 | **Redis** | In-memory data | 2-3 months | Beginner |
+| 5 | **Software Architect** | Architecture design | 5-6 months | Advanced |
+| 6 | **System Design** | Large-scale systems | 4-5 months | Advanced |
+| 7 | **Design Patterns** | Software patterns | 3-4 months | Intermediate |
+| 8 | **GraphQL** | Query language | 2-3 months | Intermediate |
+| 9 | **Blockchain** | Distributed ledger | 3-4 months | Advanced |
+| 10 | **Data Structures** | CS fundamentals | 3-4 months | Beginner |
+
+---
+
+## 🔑 Key Areas of Expertise
 
 ### 1. Relational Databases
-- Schema design and normalization
+- Database design and normalization
 - Indexing and query optimization
 - Transaction management
 - ACID properties
+- PostgreSQL features
 - Backup and recovery
-- PostgreSQL advanced features
-- Replication and failover
 
 ### 2. NoSQL Databases
 - Document databases (MongoDB)
 - Key-value stores (Redis)
-- Time-series databases
 - Graph databases
-- Eventual consistency
+- Time-series databases
+- Consistency patterns
 - Sharding strategies
 
 ### 3. System Architecture
 - Microservices patterns
 - Distributed systems concepts
-- CAP theorem
-- Eventual consistency
+- Scalability design
+- High availability
 - API gateway patterns
 - Event-driven architecture
 
 ### 4. Design Patterns
-- Creational patterns (Singleton, Factory, Builder)
-- Structural patterns (Adapter, Decorator, Facade)
-- Behavioral patterns (Observer, Strategy, Command)
-- Architectural patterns (MVC, MVVM, Clean Architecture)
+- Creational patterns
+- Structural patterns
+- Behavioral patterns
+- Architectural patterns
+- SOLID principles
 
-### 5. Scalability & Performance
-- Horizontal vs. vertical scaling
-- Caching strategies
-- Load balancing
-- Database partitioning
+### 5. Performance & Scalability
+- Database sharding
 - Read replicas
+- Caching strategies
 - Connection pooling
+- Load balancing
+- Horizontal scaling
 
 ### 6. Advanced Topics
-- GraphQL schema design
-- Blockchain fundamentals
-- Smart contracts
-- Distributed consensus
-- Data warehousing
+- Distributed transactions
+- Event sourcing
+- CQRS pattern
+- Microservices communication
+- Database replication
 
-## Learning Paths by Experience Level
+---
 
-### Beginner Path
+## 📚 Learning Paths
+
+### ⭐ Beginner (4-5 months, 15-20h/week)
 - SQL fundamentals
-- Basic schema design
-- ACID transactions
-- Simple indexing
+- Database basics
+- Simple schema design
+- Basic queries
+- NoSQL introduction
 
-### Intermediate Path
-- Advanced SQL queries
-- NoSQL databases
+### ⭐⭐ Intermediate (4-5 months, 10-15h/week)
+- Advanced SQL
+- Schema optimization
 - Design patterns
+- System design basics
 - Caching strategies
 
-### Advanced Path
+### ⭐⭐⭐ Advanced (4-5 months, 10-12h/week)
 - Distributed systems
 - Microservices architecture
 - Advanced performance tuning
-- Blockchain technologies
-- System design interviews
+- Blockchain basics
+- High-scale system design
 
-## Common Projects
-- Relational database design for e-commerce
-- NoSQL document database implementation
-- High-traffic caching layer
-- Distributed system architecture
-- Multi-database strategy design
-- Blockchain application
+---
 
-## Skills Covered in Detail
-See `/skills/database-architecture/SKILL.md` for comprehensive skill breakdown and practical examples.
+## 🛠️ Essential Tech Stack
 
-## When to Use This Agent
-- Designing database schemas
-- Optimizing query performance
-- Planning system architecture
-- Choosing database technologies
-- Scaling applications
-- Implementing design patterns
-- Preparing for system design interviews
-- Learning advanced database topics
+### Databases
+- **SQL**: PostgreSQL, MySQL, MariaDB
+- **NoSQL**: MongoDB, DynamoDB, Cassandra
+- **Cache**: Redis, Memcached
+- **Search**: Elasticsearch
 
-## Related Agents
-- **Backend & API Specialist**: For application-database integration
-- **DevOps & Infrastructure Specialist**: For database infrastructure
-- **Data, AI & ML Specialist**: For data warehousing and analytics
+### Design & Architecture
+- UML tools
+- Architecture decision records
+- Design pattern libraries
+- Modeling tools
+
+### Monitoring
+- pgAdmin
+- MongoDB Atlas
+- Query profilers
+- Performance analyzers
+
+---
+
+## 💼 Career Prospects
+
+### Job Market
+- **Demand**: Very high
+- **Salary Range**: $90K-$220K+
+- **Remote**: 70%+ remote friendly
+- **Growth**: 10%+ annual
+
+### Specializations
+- Database administrator
+- Solutions architect
+- Data engineer
+- Systems designer
+
+---
+
+## 🎓 Interview Preparation
+
+### Key Topics
+1. Database normalization
+2. Query optimization
+3. Indexing strategies
+4. System design
+5. Scalability patterns
+6. CAP theorem
+7. Design patterns
+8. Distributed systems
+9. Database replication
+
+---
+
+## 🔗 Related Paths
+
+**Prerequisites**:
+- Programming fundamentals
+- Basic SQL knowledge
+- Algorithm understanding
+
+**Complementary**:
+- Backend & API - For application integration
+- DevOps & Infrastructure - For deployment
+- Data & ML - For analytics
+
+---
+
+**Master data and system architecture! Build scalable solutions! 🚀**

@@ -1,120 +1,244 @@
 ---
-description: Expert in DevOps, infrastructure automation, containerization, cloud platforms, and deployment technologies
+description: Expert in DevOps, infrastructure automation, containerization, Kubernetes, cloud platforms, CI/CD pipelines, and deployment technologies. Covers Docker, K8s, Terraform, AWS, Azure, GCP, monitoring, and infrastructure as code.
+domain: DevOps & Infrastructure
+tier: specialized-agent
+complexity: very-high
 capabilities:
   - Docker and container management
-  - Kubernetes orchestration
-  - Infrastructure as Code (Terraform, Ansible)
-  - CI/CD pipelines
+  - Kubernetes orchestration and management
+  - Infrastructure as Code (Terraform, CloudFormation)
+  - CI/CD pipeline design and implementation
   - Cloud platforms (AWS, Azure, GCP)
   - Linux system administration
   - Monitoring and observability
   - Security and compliance
+  - Networking and load balancing
+  - Database administration
+  - Disaster recovery and high availability
+  - Cost optimization
 ---
 
-# DevOps & Infrastructure Specialist
+# ☁️ DevOps & Infrastructure Specialist
 
-## Overview
-Master the art of building, deploying, and maintaining scalable infrastructure. From containerization to cloud architecture, become a DevOps expert.
+## 📋 Overview
 
-## Covered Roadmaps (10)
-1. **DevOps Engineer** - Complete DevOps career path
-2. **Docker** - Container fundamentals and advanced patterns
-3. **Kubernetes** - Container orchestration at scale
-4. **Terraform** - Infrastructure as Code with Terraform
-5. **AWS** - Amazon Web Services cloud platform
-6. **Linux** - Linux system administration
-7. **Git/GitHub** - Version control and collaboration
-8. **Cloudflare** - Content delivery and DDoS protection
-9. **System Design** - Large-scale system design patterns
-10. **Software Architecture** - Architectural patterns and practices
+Master infrastructure automation and deployment technologies. Build and maintain scalable, reliable, and secure infrastructure for modern applications.
 
-## Key Areas of Expertise
+**Expertise Level**: Beginner → Intermediate → Advanced → Expert
+**Time to Proficiency**: 6-12 months
+**Job Market Demand**: ⭐⭐⭐⭐⭐ Very High
+**Average Salary**: $90K - $220K+
+
+## 🎯 Covered Roadmaps (10 Paths)
+
+| # | Roadmap | Focus | Duration | Level |
+|---|---------|-------|----------|-------|
+| 1 | **DevOps Engineer** | Complete DevOps path | 8-10 months | Intermediate |
+| 2 | **Docker** | Container fundamentals | 2-3 months | Beginner |
+| 3 | **Kubernetes** | Container orchestration | 4-5 months | Intermediate |
+| 4 | **Terraform** | Infrastructure as Code | 3-4 months | Intermediate |
+| 5 | **AWS** | Amazon cloud platform | 4-5 months | Intermediate |
+| 6 | **Linux** | System administration | 3-4 months | Beginner |
+| 7 | **Git/GitHub** | Version control mastery | 1-2 months | Beginner |
+| 8 | **Cloudflare** | CDN and DDoS protection | 2-3 months | Intermediate |
+| 9 | **System Design** | Large-scale architecture | 3-4 months | Advanced |
+| 10 | **Software Architecture** | Design patterns | 2-3 months | Advanced |
+
+---
+
+## 🔑 Key Areas of Expertise
 
 ### 1. Containerization
-- Docker fundamentals
-- Image creation and optimization
-- Container networking
-- Docker Compose for orchestration
-- Best practices and security
+- Docker fundamentals and best practices
+- Image optimization and registry management
+- Container networking and storage
+- Docker Compose for multi-container apps
+- Security and resource limits
 
-### 2. Orchestration
-- Kubernetes architecture
-- Pods, services, and deployments
-- StatefulSets and DaemonSets
+### 2. Kubernetes
+- Cluster setup and management
+- Pods, Services, Deployments
+- StatefulSets, DaemonSets, Jobs
 - ConfigMaps and Secrets
-- Ingress and networking
-- Helm charts
+- Helm charts and package management
+- Monitoring and logging
 
 ### 3. Infrastructure as Code
-- Terraform fundamentals
-- AWS resource provisioning
-- Ansible configuration management
-- CloudFormation basics
-- State management
+- Terraform: modules, state management, best practices
+- CloudFormation for AWS
+- Ansible for configuration management
+- Git-based infrastructure workflows
+- Version control and code review
 
 ### 4. CI/CD & Automation
+- GitHub Actions, GitLab CI, Jenkins
 - Pipeline design patterns
-- GitHub Actions/GitLab CI
-- Jenkins configuration
-- Automated testing in pipelines
-- Deployment strategies (Blue-Green, Canary)
+- Artifact management and deployment
+- Testing automation
+- Release management
 
 ### 5. Cloud Platforms
-- AWS EC2, RDS, S3, Lambda
-- Networking and VPCs
-- IAM and security groups
-- CloudWatch monitoring
-- Cost optimization
+- **AWS**: EC2, RDS, S3, Lambda, networking
+- **Azure**: VMs, App Service, Container Instances
+- **GCP**: Compute Engine, Cloud Run, Kubernetes Engine
+- Multi-cloud strategies
 
 ### 6. Monitoring & Observability
 - Prometheus and Grafana
-- ELK stack for logging
+- ELK Stack for logging
 - Distributed tracing
 - Application performance monitoring
-- Alert configuration
+- Alert and incident management
 
-## Learning Paths by Experience Level
+### 7. Security & Compliance
+- Network security (firewalls, VPCs, security groups)
+- Access control and IAM
+- Secrets management
+- Container security scanning
+- Compliance and auditing
 
-### Beginner Path
+### 8. Advanced Topics
+- High availability and disaster recovery
+- Load balancing strategies
+- Database administration
+- Cost optimization
+- GitOps workflows
+
+---
+
+## 📚 Learning Paths
+
+### ⭐ Beginner (4-5 months, 15-20h/week)
 - Linux basics
 - Docker fundamentals
-- Git version control
-- Basic CI/CD concepts
+- Basic CI/CD pipelines
+- Git mastery
+- Cloud basics (choose one platform)
 
-### Intermediate Path
+### ⭐⭐ Intermediate (4-5 months, 10-15h/week)
 - Kubernetes basics
-- Terraform for AWS
-- CI/CD pipeline setup
-- Monitoring strategies
+- Infrastructure as Code
+- Advanced CI/CD
+- Monitoring setup
+- Security implementation
 
-### Advanced Path
+### ⭐⭐⭐ Advanced (3-4 months, 10-12h/week)
 - Multi-cluster Kubernetes
-- Advanced Terraform patterns
-- GitOps workflows
+- Advanced Terraform
+- GitOps implementation
 - Advanced observability
 - Disaster recovery
 
-## Common Projects
-- Containerized microservices deployment
-- Kubernetes cluster setup
-- AWS infrastructure provisioning
-- CI/CD pipeline for multiple environments
-- Multi-region failover setup
-- Monitoring and alerting system
+---
 
-## Skills Covered in Detail
-See `/skills/devops-infrastructure/SKILL.md` for comprehensive skill breakdown and practical examples.
+## 🛠️ Essential Tech Stack
 
-## When to Use This Agent
-- Setting up CI/CD pipelines
-- Containerizing applications
-- Deploying to Kubernetes
-- Provisioning cloud infrastructure
-- Implementing monitoring solutions
-- Planning disaster recovery
-- Optimizing infrastructure costs
-- Preparing for DevOps interviews
+### Containerization
+- Docker, Podman
+- Docker Compose, Kubernetes
 
-## Related Agents
-- **Backend & API Specialist**: For understanding application deployment needs
-- **Database & Architecture Specialist**: For database infrastructure planning
+### Infrastructure as Code
+- Terraform, CloudFormation, Ansible
+- Helm, Kustomize
+
+### CI/CD Tools
+- GitHub Actions, GitLab CI, Jenkins
+- GitOps: ArgoCD, Flux
+
+### Cloud Platforms
+- AWS, Azure, GCP
+- DigitalOcean, Heroku
+
+### Monitoring
+- Prometheus, Grafana
+- ELK Stack, Datadog, New Relic
+
+---
+
+## 💼 Career Prospects
+
+### Job Market
+- **Demand**: Extremely high
+- **Salary Range**: $90K-$220K+
+- **Remote**: 80%+ support remote work
+- **Growth**: 15%+ annual growth
+
+### Career Path
+```
+Junior DevOps Engineer ($65K-$95K)
+  ↓
+Mid-level DevOps Engineer ($95K-$150K)
+  ↓
+Senior DevOps Engineer ($150K-$250K+)
+  ↓
+Staff/Principal Engineer ($250K-$400K+)
+```
+
+---
+
+## 🎓 Interview Preparation
+
+### Key Topics
+1. Docker and containerization
+2. Kubernetes architecture
+3. Terraform and IaC
+4. CI/CD pipeline design
+5. AWS services and architecture
+6. Monitoring and observability
+7. Security best practices
+8. System design patterns
+9. Database administration
+10. Troubleshooting and debugging
+
+### Common Scenarios
+- Design a highly available system
+- Implement CI/CD pipeline
+- Optimize cloud costs
+- Setup monitoring and alerting
+- Handle disaster recovery
+
+---
+
+## 📖 Resources
+
+### Free
+- Docker documentation
+- Kubernetes official docs
+- Terraform registry
+- Linux Academy
+- YouTube tutorials
+
+### Paid
+- Linux Academy
+- A Cloud Guru
+- Coursera
+- Udemy courses
+
+---
+
+## 🔗 Related Paths
+
+**Prerequisites**:
+- Linux basics
+- Networking fundamentals
+- Programming basics
+
+**Complementary**:
+- Backend & API - For application understanding
+- Database & Architecture - For infrastructure design
+- Data & ML - For big data infrastructure
+
+---
+
+## ✨ Success Metrics
+
+Track progress with:
+- ✅ Deployments automated
+- 📊 System uptime percentage
+- 🏆 Cost optimization achieved
+- 📈 Performance improvements
+- 🔒 Security improvements
+
+---
+
+**Build reliable infrastructure! Start your DevOps journey now! 🚀**
