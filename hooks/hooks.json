@@ -1,0 +1,370 @@
+{
+  "hooks": [
+    {
+      "event": "user-prompt-submit",
+      "enabled": true,
+      "actions": [
+        {
+          "type": "log-interaction",
+          "description": "Log learning interactions for analytics",
+          "enabled": true
+        },
+        {
+          "type": "validate-input",
+          "description": "Validate user input for safety",
+          "enabled": true,
+          "rules": [
+            "check-input-length",
+            "prevent-injection",
+            "sanitize-content"
+          ]
+        }
+      ]
+    },
+    {
+      "event": "command-execution",
+      "enabled": true,
+      "actions": [
+        {
+          "type": "track-command",
+          "description": "Track command usage",
+          "enabled": true
+        },
+        {
+          "type": "verify-permissions",
+          "description": "Verify user has access to command",
+          "enabled": true
+        },
+        {
+          "type": "measure-performance",
+          "description": "Measure command execution time",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "event": "assessment-complete",
+      "enabled": true,
+      "actions": [
+        {
+          "type": "save-results",
+          "description": "Save assessment results",
+          "enabled": true
+        },
+        {
+          "type": "generate-recommendations",
+          "description": "Generate personalized learning recommendations",
+          "enabled": true
+        },
+        {
+          "type": "update-progress",
+          "description": "Update user progress tracking",
+          "enabled": true
+        },
+        {
+          "type": "unlock-content",
+          "description": "Unlock relevant learning content",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "event": "project-completion",
+      "enabled": true,
+      "actions": [
+        {
+          "type": "award-badge",
+          "description": "Award completion badge",
+          "enabled": true
+        },
+        {
+          "type": "update-portfolio",
+          "description": "Add project to user portfolio",
+          "enabled": true
+        },
+        {
+          "type": "suggest-next",
+          "description": "Suggest next learning steps",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "event": "learning-path-started",
+      "enabled": true,
+      "actions": [
+        {
+          "type": "initialize-progress",
+          "description": "Initialize progress tracking",
+          "enabled": true
+        },
+        {
+          "type": "set-milestones",
+          "description": "Set learning milestones",
+          "enabled": true
+        },
+        {
+          "type": "send-welcome",
+          "description": "Send welcome message with tips",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "event": "milestone-achieved",
+      "enabled": true,
+      "actions": [
+        {
+          "type": "notify-user",
+          "description": "Notify user of achievement",
+          "enabled": true
+        },
+        {
+          "type": "celebrate-achievement",
+          "description": "Display achievement celebration",
+          "enabled": true
+        },
+        {
+          "type": "recommend-next",
+          "description": "Recommend next challenge",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "event": "error-encountered",
+      "enabled": true,
+      "actions": [
+        {
+          "type": "log-error",
+          "description": "Log error for debugging",
+          "enabled": true
+        },
+        {
+          "type": "suggest-recovery",
+          "description": "Suggest recovery steps",
+          "enabled": true
+        },
+        {
+          "type": "notify-support",
+          "description": "Notify support team of critical errors",
+          "enabled": true,
+          "threshold": "critical"
+        }
+      ]
+    }
+  ],
+  "rateLimiting": {
+    "enabled": true,
+    "limits": [
+      {
+        "action": "assessment-take",
+        "maxPerDay": 5,
+        "description": "Maximum 5 assessments per day"
+      },
+      {
+        "action": "api-call",
+        "maxPerMinute": 30,
+        "description": "API rate limit"
+      }
+    ]
+  },
+  "security": {
+    "enabled": true,
+    "features": [
+      {
+        "type": "input-validation",
+        "enabled": true
+      },
+      {
+        "type": "csrf-protection",
+        "enabled": true
+      },
+      {
+        "type": "content-security",
+        "enabled": true
+      },
+      {
+        "type": "access-control",
+        "enabled": true
+      }
+    ]
+  },
+  "analytics": {
+    "enabled": true,
+    "tracking": [
+      "user-interactions",
+      "command-usage",
+      "assessment-results",
+      "project-completion",
+      "learning-progress"
+    ]
+  },
+  "notifications": {
+    "enabled": true,
+    "types": [
+      {
+        "event": "daily-reminder",
+        "enabled": true,
+        "frequency": "daily",
+        "description": "Daily learning reminder",
+        "time": "09:00"
+      },
+      {
+        "event": "milestone-celebration",
+        "enabled": true,
+        "frequency": "on-event",
+        "description": "Milestone achievement notification",
+        "priority": "high"
+      },
+      {
+        "event": "weekly-summary",
+        "enabled": true,
+        "frequency": "weekly",
+        "description": "Weekly learning summary",
+        "day": "sunday",
+        "time": "19:00"
+      },
+      {
+        "event": "skill-unlock",
+        "enabled": true,
+        "frequency": "on-event",
+        "description": "Notification when new skills are unlocked"
+      },
+      {
+        "event": "challenge-reminder",
+        "enabled": true,
+        "frequency": "daily",
+        "description": "Remind user about incomplete challenges"
+      }
+    ]
+  },
+  "automations": {
+    "enabled": true,
+    "workflows": [
+      {
+        "id": "skill-progression",
+        "name": "Skill Progression Automation",
+        "trigger": "assessment-score-above-80",
+        "actions": [
+          {"type": "unlock-next-skill", "description": "Unlock next level skill"},
+          {"type": "recommend-projects", "description": "Recommend relevant projects"},
+          {"type": "award-badge", "description": "Award progression badge"}
+        ]
+      },
+      {
+        "id": "streak-tracking",
+        "name": "Learning Streak Tracking",
+        "trigger": "daily-interaction",
+        "actions": [
+          {"type": "increment-streak", "description": "Increment learning streak"},
+          {"type": "milestone-check", "description": "Check for streak milestones"},
+          {"type": "broken-streak-recovery", "description": "Offer recovery if streak broken"}
+        ]
+      },
+      {
+        "id": "personalized-recommendations",
+        "name": "Personalized Path Recommendations",
+        "trigger": "weekly-schedule",
+        "actions": [
+          {"type": "analyze-progress", "description": "Analyze user learning progress"},
+          {"type": "identify-gaps", "description": "Identify skill gaps"},
+          {"type": "generate-recommendations", "description": "Generate personalized recommendations"}
+        ]
+      },
+      {
+        "id": "project-matching",
+        "name": "Project Difficulty Matching",
+        "trigger": "skill-unlock-or-assessment-complete",
+        "actions": [
+          {"type": "match-projects", "description": "Match projects to current skill level"},
+          {"type": "difficulty-adjustment", "description": "Adjust project difficulty"},
+          {"type": "send-project-suggestions", "description": "Send project suggestions"}
+        ]
+      }
+    ]
+  },
+  "gamification": {
+    "enabled": true,
+    "features": {
+      "badges": {
+        "enabled": true,
+        "categories": [
+          "achievement",
+          "milestone",
+          "specialty",
+          "consistency",
+          "community"
+        ]
+      },
+      "points": {
+        "enabled": true,
+        "system": "engagement-based",
+        "multipliers": {
+          "project-completion": 100,
+          "assessment-perfect": 50,
+          "streak-bonus": 10,
+          "community-help": 25
+        }
+      },
+      "leaderboards": {
+        "enabled": true,
+        "types": [
+          "global",
+          "domain-specific",
+          "monthly",
+          "streak"
+        ]
+      },
+      "achievements": {
+        "enabled": true,
+        "system": "progressive",
+        "tiers": [
+          "bronze",
+          "silver",
+          "gold",
+          "platinum"
+        ]
+      }
+    }
+  },
+  "progress_tracking": {
+    "enabled": true,
+    "metrics": [
+      "skills-acquired",
+      "projects-completed",
+      "assessment-scores",
+      "learning-time",
+      "streak-days",
+      "badges-earned",
+      "specialization-level"
+    ],
+    "reporting": {
+      "daily": true,
+      "weekly": true,
+      "monthly": true,
+      "yearly": true
+    }
+  },
+  "quality_assurance": {
+    "enabled": true,
+    "checks": [
+      {
+        "type": "content-quality",
+        "description": "Validate content quality and accuracy"
+      },
+      {
+        "type": "user-feedback",
+        "description": "Collect and analyze user feedback"
+      },
+      {
+        "type": "performance-monitoring",
+        "description": "Monitor system performance"
+      },
+      {
+        "type": "accessibility-check",
+        "description": "Verify WCAG compliance"
+      }
+    ]
+  }
+}
