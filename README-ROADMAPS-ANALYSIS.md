@@ -2,13 +2,11 @@
 
 ## 📋 Overview
 
-This directory contains a comprehensive analysis of the **developer-roadmap** repository by Kamran Ahmed (https://github.com/kamranahmedse/developer-roadmap), designed to facilitate the creation of a Claude Code plugin with 7 parallel agents handling 69 developer roadmaps.
 
 ---
 
 ## 📁 Files in This Analysis
 
-### 1. **developer-roadmap-analysis.md** (Comprehensive Analysis)
 **Purpose:** Complete deep-dive analysis of the repository
 
 **Contents:**
@@ -205,14 +203,10 @@ PDF: https://roadmap.sh/pdfs/roadmaps/{roadmap-name}.pdf
 
 ### GitHub Repository
 ```
-Directory: https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/{roadmap-name}
-Raw Metadata: https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/{roadmap-name}/{roadmap-name}.md
-Raw JSON: https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/{roadmap-name}/{roadmap-name}.json
 ```
 
 ### GitHub API
 ```
-List All: https://api.github.com/repos/kamranahmedse/developer-roadmap/contents/src/data/roadmaps
 ```
 
 ---
@@ -400,7 +394,6 @@ Each agent has 8-10 specialized commands for their domain.
 ## 📚 Additional Resources
 
 ### Source Repository
-- Main: https://github.com/kamranahmedse/developer-roadmap
 - Website: https://roadmap.sh
 - Author: Kamran Ahmed (@kamrify)
 
@@ -421,7 +414,6 @@ Each agent has 8-10 specialized commands for their domain.
 ## ⚡ Quick Start Guide
 
 ### For Plugin Developers
-1. Read `developer-roadmap-analysis.md` for complete understanding
 2. Review `7-agent-system-breakdown.md` for implementation details
 3. Use `roadmap-agent-mapping.csv` for roadmap-to-agent mapping
 4. Reference `QUICK-REFERENCE.md` during development
@@ -460,7 +452,6 @@ Each agent has 8-10 specialized commands for their domain.
 ## 📧 Attribution
 
 **Data Source:** roadmap.sh
-**Repository:** https://github.com/kamranahmedse/developer-roadmap
 **Author:** Kamran Ahmed
 **License:** Check repository for current license
 **Analysis Date:** November 18, 2025
@@ -485,7 +476,6 @@ This analysis provides everything needed to create a comprehensive Claude Code p
 
 ## 📖 Document Index
 
-1. **developer-roadmap-analysis.md** - Complete analysis (main reference)
 2. **7-agent-system-breakdown.md** - Implementation blueprint
 3. **roadmap-agent-mapping.csv** - Data table (spreadsheet format)
 4. **QUICK-REFERENCE.md** - Fast lookup guide

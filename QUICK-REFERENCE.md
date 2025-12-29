@@ -2,7 +2,6 @@
 
 ## Overview
 - **Total Roadmaps:** 69
-- **Repository:** https://github.com/kamranahmedse/developer-roadmap
 - **Website:** https://roadmap.sh
 - **Agents:** 7 (each handling ~10 roadmaps)
 
@@ -141,15 +140,10 @@ Image: https://roadmap.sh/roadmaps/{roadmap-name}.png
 
 ### GitHub Repository
 ```
-Directory: https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/{roadmap-name}
-Raw MD: https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/{roadmap-name}/{roadmap-name}.md
-Raw JSON: https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/{roadmap-name}/{roadmap-name}.json
 ```
 
 ### GitHub API
 ```
-List All: https://api.github.com/repos/kamranahmedse/developer-roadmap/contents/src/data/roadmaps
-Specific: https://api.github.com/repos/kamranahmedse/developer-roadmap/contents/src/data/roadmaps/{roadmap-name}
 ```
 
 ---
@@ -369,11 +363,9 @@ Each agent has 8-10 specialized commands for their domain.
 ```bash
 #!/bin/bash
 # Fetch all roadmap metadata
-curl -s "https://api.github.com/repos/kamranahmedse/developer-roadmap/contents/src/data/roadmaps" \
   | jq -r '.[].name' \
   | while read roadmap; do
     echo "Fetching $roadmap..."
-    curl -s "https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/$roadmap/$roadmap.md" \
       > "data/roadmaps/$roadmap.md"
   done
 ```
@@ -384,7 +376,6 @@ curl -s "https://api.github.com/repos/kamranahmedse/developer-roadmap/contents/s
 
 ### Official Links
 - Website: https://roadmap.sh
-- GitHub: https://github.com/kamranahmedse/developer-roadmap
 - Discord: 42k+ members
 - Author: Kamran Ahmed (@kamrify)
 
@@ -430,7 +421,6 @@ curl -s "https://api.github.com/repos/kamranahmedse/developer-roadmap/contents/s
 ## License & Attribution
 
 **Source:** roadmap.sh by Kamran Ahmed
-**Repository:** https://github.com/kamranahmedse/developer-roadmap
 **License:** Check repository for current license
 **Attribution:** Always credit roadmap.sh and Kamran Ahmed
 

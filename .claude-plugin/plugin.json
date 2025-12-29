@@ -1,126 +1,55 @@
 {
-  "name": "ultrathink",
-  "version": "1.0.0",
-  "description": "Comprehensive developer roadmap plugin with 7 specialized agents covering 69 learning paths across frontend, backend, DevOps, data, mobile, databases, and specialized roles.",
-  "author": "ultrathink.net",
+  "schema_version": "1.0.0",
+  "name": "postgresql-development-assistant",
+  "version": "2.0.0",
+  "description": "Comprehensive PostgreSQL database plugin with 8 specialized agents and 12 Golden Format skills for mastering PostgreSQL",
+  "author": {
+    "name": "Dr. Umit Kacar & Muhsin Elcicek",
+    "email": "kacarumit.phd@gmail.com"
+  },
   "repository": "https://github.com/pluginagentmarketplace/custom-plugin-postgresql",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "keywords": [
-    "developer-roadmap",
-    "learning-path",
-    "skill-development",
-    "career-guidance",
-    "technology-stack",
-    "professional-development"
+    "postgresql",
+    "postgres",
+    "database",
+    "sql",
+    "plpgsql",
+    "replication",
+    "performance",
+    "administration"
   ],
   "agents": [
-    {
-      "id": "frontend-web-specialist",
-      "name": "Frontend & Web Specialist",
-      "description": "Expert in frontend development, web technologies, and UI frameworks",
-      "path": "agents/01-frontend-web.md"
-    },
-    {
-      "id": "backend-api-specialist",
-      "name": "Backend & API Specialist",
-      "description": "Expert in backend development, APIs, and server-side technologies",
-      "path": "agents/02-backend-api.md"
-    },
-    {
-      "id": "devops-infrastructure-specialist",
-      "name": "DevOps & Infrastructure Specialist",
-      "description": "Expert in DevOps, cloud infrastructure, and deployment technologies",
-      "path": "agents/03-devops-infrastructure.md"
-    },
-    {
-      "id": "data-ai-ml-specialist",
-      "name": "Data, AI & ML Specialist",
-      "description": "Expert in data science, artificial intelligence, and machine learning",
-      "path": "agents/04-data-ai-ml.md"
-    },
-    {
-      "id": "mobile-gaming-specialist",
-      "name": "Mobile & Gaming Specialist",
-      "description": "Expert in mobile development, gaming, and cross-platform technologies",
-      "path": "agents/05-mobile-gaming.md"
-    },
-    {
-      "id": "database-architecture-specialist",
-      "name": "Database & Architecture Specialist",
-      "description": "Expert in databases, system architecture, and design patterns",
-      "path": "agents/06-database-architecture.md"
-    },
-    {
-      "id": "specialized-management-specialist",
-      "name": "Specialized & Management Specialist",
-      "description": "Expert in full-stack development, QA, leadership, and specialized domains",
-      "path": "agents/07-specialized-management.md"
-    }
-  ],
-  "commands": [
-    {
-      "id": "learn",
-      "name": "learn",
-      "description": "Start learning with personalized roadmap selection",
-      "path": "commands/learn.md"
-    },
-    {
-      "id": "browse-agent",
-      "name": "browse-agent",
-      "description": "Explore all specialized agents and their roadmaps",
-      "path": "commands/browse-agent.md"
-    },
-    {
-      "id": "assess",
-      "name": "assess",
-      "description": "Evaluate your knowledge with skill assessments",
-      "path": "commands/assess.md"
-    },
-    {
-      "id": "projects",
-      "name": "projects",
-      "description": "Explore hands-on projects and real-world applications",
-      "path": "commands/projects.md"
-    }
+    "./agents/01-pg-fundamentals.md",
+    "./agents/02-pg-sql-mastery.md",
+    "./agents/03-pg-data-types.md",
+    "./agents/04-pg-indexing.md",
+    "./agents/05-pg-performance.md",
+    "./agents/06-pg-administration.md",
+    "./agents/07-pg-replication.md",
+    "./agents/08-pg-advanced.md"
   ],
   "skills": [
-    {
-      "id": "frontend-web",
-      "name": "Frontend & Web Development",
-      "path": "skills/frontend-web/SKILL.md"
-    },
-    {
-      "id": "backend-api",
-      "name": "Backend & API Development",
-      "path": "skills/backend-api/SKILL.md"
-    },
-    {
-      "id": "devops-infrastructure",
-      "name": "DevOps & Infrastructure",
-      "path": "skills/devops-infrastructure/SKILL.md"
-    },
-    {
-      "id": "data-ai-ml",
-      "name": "Data, AI & Machine Learning",
-      "path": "skills/data-ai-ml/SKILL.md"
-    },
-    {
-      "id": "mobile-gaming",
-      "name": "Mobile & Gaming Development",
-      "path": "skills/mobile-gaming/SKILL.md"
-    },
-    {
-      "id": "database-architecture",
-      "name": "Database & System Architecture",
-      "path": "skills/database-architecture/SKILL.md"
-    },
-    {
-      "id": "specialized-management",
-      "name": "Specialized & Management Skills",
-      "path": "skills/specialized-management/SKILL.md"
-    }
+    "./skills/pg-basics/SKILL.md",
+    "./skills/pg-ddl/SKILL.md",
+    "./skills/pg-dml/SKILL.md",
+    "./skills/pg-queries/SKILL.md",
+    "./skills/pg-indexes/SKILL.md",
+    "./skills/pg-functions/SKILL.md",
+    "./skills/pg-transactions/SKILL.md",
+    "./skills/pg-performance/SKILL.md",
+    "./skills/pg-backup/SKILL.md",
+    "./skills/pg-replication/SKILL.md",
+    "./skills/pg-security/SKILL.md",
+    "./skills/pg-extensions/SKILL.md"
+  ],
+  "commands": [
+    "./commands/pg-check.md",
+    "./commands/pg-query.md",
+    "./commands/pg-optimize.md",
+    "./commands/pg-backup.md"
   ],
   "hooks": {
-    "path": "hooks/hooks.json"
+    "hooks_config_path": "./hooks/hooks.json"
   }
 }

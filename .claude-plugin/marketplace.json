@@ -1,0 +1,15 @@
+{
+  "name": "pluginagentmarketplace-postgresql",
+  "owner": {
+    "name": "Plugin Agent Marketplace",
+    "email": "pluginagentmarketplace@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "ultrathink",
+      "source": "./",
+      "description": "Claude Code plugin for postgresql development",
+      "version": "1.0.0"
+    }
+  ]
+}

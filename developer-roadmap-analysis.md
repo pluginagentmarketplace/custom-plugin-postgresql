@@ -1,12 +1,10 @@
 # Developer Roadmap Repository Analysis
-**Repository:** https://github.com/kamranahmedse/developer-roadmap
 **Website:** https://roadmap.sh
 **Stars:** 344k+ | **Forks:** 43.4k+ | **Users:** 2.1M+
 **Analysis Date:** 2025-11-18
 
 ## Executive Summary
 
-The developer-roadmap repository contains **69 comprehensive roadmaps** organized into two primary categories: **Role-Based Roadmaps** (career paths) and **Skill-Based Roadmaps** (technologies/tools). Each roadmap follows a consistent structure with visual node-based learning paths, detailed content, and metadata.
 
 ---
 
@@ -354,7 +352,6 @@ The developer-roadmap repository contains **69 comprehensive roadmaps** organize
 
 ### Repository Structure
 ```
-developer-roadmap/
 ├── src/
 │   ├── data/
 │   │   ├── roadmaps/           # Main roadmaps directory (69 folders)
@@ -520,12 +517,8 @@ partner:
 - **Image:** `https://roadmap.sh/roadmaps/{roadmap-name}.png`
 
 ### Repository Access
-- **Roadmap Directory:** `https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/{roadmap-name}`
-- **Metadata File:** `https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/{roadmap-name}/{roadmap-name}.md`
-- **JSON Data:** `https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/src/data/roadmaps/{roadmap-name}/{roadmap-name}.json`
 
 ### API Access
-- **GitHub API:** `https://api.github.com/repos/kamranahmedse/developer-roadmap/contents/src/data/roadmaps`
 
 ---
 
@@ -809,7 +802,6 @@ The repository also includes "best-practices" in a separate directory covering:
 
 ## Conclusion
 
-The developer-roadmap repository provides a comprehensive, well-structured collection of 69 learning paths covering nearly every aspect of modern software development. The consistent structure, rich metadata, and detailed content make it ideal for integration into a multi-agent Claude Code plugin system.
 
 Each roadmap provides:
 - ✅ Clear categorization (role vs skill)

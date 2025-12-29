@@ -1,322 +1,89 @@
-# Contributing to ultrathink
+# Contributing to Postgresql Plugin
 
-Thank you for your interest in contributing to **ultrathink**! We welcome contributions from developers of all levels. This document provides guidelines for contributing.
+Thank you for your interest in contributing to this Claude Code plugin!
 
-## 🎯 Code of Conduct
+## 📋 How to Contribute
 
-- Be respectful and inclusive
-- No harassment or discrimination
-- Welcome diverse perspectives
-- Focus on constructive feedback
-- Maintain professional communication
+1. **Fork** the repository
+2. **Create** your feature branch (`git checkout -b feature/amazing-feature`)
+3. **Follow** the Golden Format for new skills
+4. **Test** your changes thoroughly
+5. **Commit** your changes (`git commit -m 'feat: Add amazing feature'`)
+6. **Push** to the branch (`git push origin feature/amazing-feature`)
+7. **Open** a Pull Request
 
-## 🚀 Getting Started
+## 📐 Guidelines
 
-### Prerequisites
-- Git and GitHub account
-- Claude Code environment
-- Basic markdown knowledge
-- Familiarity with plugin structure
+### SASMP v1.3.0 Compliance
 
-### Development Setup
+All contributions must follow SASMP (Standardized Agent/Skill Metadata Protocol) v1.3.0:
 
-```bash
-# Clone the repository
-git clone https://github.com/pluginagentmarketplace/custom-plugin-postgresql
-cd custom-plugin-postgresql
+- Agents must include `sasmp_version: "1.3.0"` and `eqhm_enabled: true`
+- Skills must include `bonded_agent` and `bond_type` fields
+- Commands must have YAML frontmatter
 
-# Create feature branch
-git checkout -b feature/your-feature-name
-
-# Make your changes
-# Test locally in Claude Code
-
-# Commit and push
-git add .
-git commit -m "feat: describe your changes"
-git push origin feature/your-feature-name
-```
-
-## 📋 Types of Contributions
-
-### 1. Content Improvements
-- **Agent Enhancements**: Add more details, examples, or learning resources
-- **Skill Expansions**: Improve SKILL.md files with advanced topics
-- **Command Enhancements**: Add new commands or improve existing ones
-- **Project Ideas**: Add hands-on project ideas to `/projects`
-
-### 2. Bug Fixes
-- Report issues through GitHub Issues
-- Include reproduction steps
-- Provide error messages and logs
-- Submit PR with fix
-
-### 3. New Features
-- Suggest features in GitHub Discussions
-- Discuss implementation approach
-- Follow plugin architecture
-- Add tests and documentation
-
-### 4. Documentation
-- Improve README files
-- Add code examples
-- Create tutorials or guides
-- Fix typos and grammar
-
-## 📝 Contribution Guidelines
-
-### For Agent Files
+### Agent Development
 
 ```yaml
 ---
-description: Clear, concise description
-domain: Agent domain/category
-tier: specialized-agent
-complexity: low|high|very-high
-capabilities:
-  - Capability 1
-  - Capability 2
+name: agent-name
+description: Agent description
+model: sonnet
+tools: Read, Write, Bash
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
-
-# Agent Name
-
-## Overview
-[Detailed overview]
-
-## Key Areas
-[Main expertise areas]
-
-## Learning Paths
-[Organized by level]
-
-## Tech Stack
-[Tools and technologies]
-
-## Career Prospects
-[Job market and opportunities]
 ```
 
-### For Skill Files
-
-SKILL.md should include:
-- Quick start section with examples
-- Core concepts explanation
-- Tools and technologies
-- Code examples (with syntax highlighting)
-- Best practices
-- Common patterns
-- Resources and references
-
-### For Commands
-
-Command markdown files should include:
-- Clear description
-- Usage examples
-- Interactive workflows
-- Feature lists
-- Tips and tricks
-
-### Code Quality Standards
-
-- **Clarity**: Code examples should be clear and well-commented
-- **Accuracy**: Ensure all information is current and correct
-- **Completeness**: Provide comprehensive coverage of topics
-- **Testing**: Verify examples work correctly
-- **Formatting**: Follow markdown conventions
-
-## 🔄 PR Process
-
-### Step 1: Create PR
-```bash
-git push origin feature/your-feature-name
-```
-
-### Step 2: Fill PR Template
-```markdown
-## Description
-Brief summary of changes
-
-## Type
-- [ ] Content improvement
-- [ ] Bug fix
-- [ ] New feature
-- [ ] Documentation
-
-## Changes
-- Change 1
-- Change 2
-
-## Testing
-How to test this change?
-
-## Checklist
-- [ ] Content is accurate
-- [ ] Follows style guide
-- [ ] No spelling errors
-- [ ] Links are valid
-```
-
-### Step 3: Review Process
-- Reviewers will check for:
-  - Technical accuracy
-  - Consistency with existing content
-  - Quality and clarity
-  - Proper formatting
-- Address feedback constructively
-- Update PR as needed
-
-### Step 4: Merge
-Once approved, maintainers will merge to main branch.
-
-## 📚 Content Style Guide
-
-### Writing Style
-- **Clear & Concise**: Use simple language
-- **Active Voice**: Prefer "Learn Python" over "Python can be learned"
-- **Present Tense**: Use current descriptions
-- **Professional**: Maintain technical accuracy
-
-### Formatting
-- Use **bold** for emphasis
-- Use `code` for technical terms
-- Use > for quotes
-- Use numbered lists for steps
-- Use bullet points for items
-
-### Examples
-
-Good example:
-```javascript
-// Clear, concise, functional
-const greet = (name) => `Hello, ${name}!`;
-```
-
-Poor example:
-```javascript
-// Some comment
-const greet = (name) => {
-  let greeting = "Hello, " + name + "!";
-  return greeting;
-};
-```
-
-## 🐛 Reporting Issues
-
-### Bug Report Template
-```markdown
-**Describe the bug**
-Brief description
-
-**Steps to reproduce**
-1. Step 1
-2. Step 2
-
-**Expected behavior**
-What should happen
-
-**Actual behavior**
-What actually happens
-
-**Environment**
-- Claude Code version: X.X.X
-- OS: [Your OS]
-```
-
-### Feature Request Template
-```markdown
-**Is your feature related to a problem?**
-Describe the problem
-
-**Describe the solution**
-How you envision the solution
-
-**Additional context**
-Any other information
-```
-
-## 🎯 Priority Areas
-
-We're especially interested in contributions for:
-
-1. **Skill Module Expansions**
-   - Advanced topics
-   - Real-world examples
-   - Best practices
-   - Interview questions
-
-2. **New Projects**
-   - Beginner-friendly projects
-   - Real-world scenarios
-   - Step-by-step guides
-   - Solution code
-
-3. **Agent Improvements**
-   - Career path details
-   - Interview preparation
-   - Job market data
-   - Learning resources
-
-4. **Commands Enhancement**
-   - Interactive workflows
-   - User guides
-   - Workflow diagrams
-   - Example scenarios
-
-5. **Documentation**
-   - Tutorials
-   - Case studies
-   - Best practices guides
-   - Troubleshooting
-
-## 📊 File Structure
-
-Keep contributions organized:
+### Skill Development (Golden Format)
 
 ```
-├── agents/
-│   ├── XX-agent-name.md      # Agent files
-├── skills/
-│   ├── skill-name/
-│   │   └── SKILL.md          # Skill module
-├── commands/
-│   ├── command-name.md       # Command file
-├── docs/
-│   ├── CONTRIBUTING.md       # This file
-│   ├── CHANGELOG.md          # Version history
-│   └── LICENSE.md            # License
+skills/skill-name/
+├── SKILL.md          # Main skill definition
+├── assets/           # Templates, configs, schemas
+├── scripts/          # Automation scripts
+└── references/       # Documentation, guides
 ```
 
-## 📧 Communication
+SKILL.md frontmatter:
+```yaml
+---
+name: skill-name
+description: Skill description
+sasmp_version: "1.3.0"
+bonded_agent: agent-name
+bond_type: PRIMARY_BOND
+---
+```
 
-### Channels
-- **GitHub Issues**: Bug reports and feature requests
-- **GitHub Discussions**: General questions and ideas
-- **Pull Requests**: Code contributions and reviews
-- **Email**: Contact maintainers for sensitive issues
+### Command Development
 
-## 🏆 Recognition
+```yaml
+---
+name: command-name
+description: Command description
+allowed-tools: Read, Glob
+---
+```
 
-Contributors will be recognized in:
-- CHANGELOG.md
-- GitHub contributions page
-- Project README (major contributors)
-- Monthly contributor highlights
+## ✅ Testing Requirements
 
-## ⚖️ License
+- Test all new features locally
+- Verify agent/skill bonding
+- Run `/plugin validate` before submitting
+- Ensure no E-code errors
 
-By contributing, you agree that your contributions will be licensed under the MIT License.
+## 🔒 Code of Conduct
 
-## 📖 Additional Resources
+- Be respectful and constructive
+- Follow existing code style
+- Document your changes
+- Test before submitting
 
-- [Developer Roadmap](https://roadmap.sh) - Original source material
-- [Claude Code Docs](https://docs.claude.com) - Plugin documentation
-- [Markdown Guide](https://www.markdownguide.org) - Markdown help
-- [GitHub Help](https://help.github.com) - Git and GitHub guide
+## ❓ Questions?
 
-## 🙏 Thank You
-
-Your contributions make ultrathink better for everyone!
+Open an issue for any questions or suggestions.
 
 ---
 
-**Questions?** Open an issue or start a discussion on GitHub!
+© 2025 Dr. Umit Kacar & Muhsin Elcicek. All Rights Reserved.

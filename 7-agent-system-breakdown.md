@@ -633,7 +633,6 @@ claude-dev-roadmaps/
   "agents": 7,
   "roadmaps": 69,
   "categories": ["role-roadmap", "skill-roadmap"],
-  "source": "https://github.com/kamranahmedse/developer-roadmap",
   "website": "https://roadmap.sh"
 }
 ```
