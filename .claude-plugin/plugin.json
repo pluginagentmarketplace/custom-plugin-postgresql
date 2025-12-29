@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "name": "postgresql-development-assistant",
   "version": "2.0.0",
-  "description": "Comprehensive PostgreSQL database plugin with 8 specialized agents and 12 Golden Format skills for mastering PostgreSQL",
+  "description": "PostgreSQL database plugin with specialized agents for query optimization, schema design, and performance tuning",
   "author": {
     "name": "Dr. Umit Kacar & Muhsin Elcicek",
     "email": "kacarumit.phd@gmail.com"
