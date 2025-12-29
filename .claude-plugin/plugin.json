@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "name": "postgresql-development-assistant",
   "version": "2.0.0",
-  "description": "PostgreSQL database plugin with specialized agents for query optimization, schema design, and performance tuning",
+  "description": "PostgreSQL database plugin with specialized agents for queries, optimization, administration, and advanced features",
   "author": {
     "name": "Dr. Umit Kacar & Muhsin Elcicek",
     "email": "kacarumit.phd@gmail.com"
@@ -20,28 +20,22 @@
     "administration"
   ],
   "agents": [
-    "./agents/01-pg-fundamentals.md",
-    "./agents/02-pg-sql-mastery.md",
-    "./agents/03-pg-data-types.md",
-    "./agents/04-pg-indexing.md",
-    "./agents/05-pg-performance.md",
-    "./agents/06-pg-administration.md",
-    "./agents/07-pg-replication.md",
-    "./agents/08-pg-advanced.md"
+    "./agents/01-postgresql-fundamentals.md",
+    "./agents/02-postgresql-queries.md",
+    "./agents/03-postgresql-performance.md",
+    "./agents/04-postgresql-admin.md",
+    "./agents/05-postgresql-advanced.md",
+    "./agents/06-postgresql-plpgsql.md",
+    "./agents/07-postgresql-scaling.md"
   ],
   "skills": [
-    "./skills/pg-basics/SKILL.md",
-    "./skills/pg-ddl/SKILL.md",
-    "./skills/pg-dml/SKILL.md",
-    "./skills/pg-queries/SKILL.md",
-    "./skills/pg-indexes/SKILL.md",
-    "./skills/pg-functions/SKILL.md",
-    "./skills/pg-transactions/SKILL.md",
-    "./skills/pg-performance/SKILL.md",
-    "./skills/pg-backup/SKILL.md",
-    "./skills/pg-replication/SKILL.md",
-    "./skills/pg-security/SKILL.md",
-    "./skills/pg-extensions/SKILL.md"
+    "./skills/postgresql-fundamentals/SKILL.md",
+    "./skills/postgresql-advanced-queries/SKILL.md",
+    "./skills/postgresql-performance/SKILL.md",
+    "./skills/postgresql-admin/SKILL.md",
+    "./skills/postgresql-json/SKILL.md",
+    "./skills/postgresql-plpgsql/SKILL.md",
+    "./skills/postgresql-scaling/SKILL.md"
   ],
   "commands": [
     "./commands/pg-check.md",
