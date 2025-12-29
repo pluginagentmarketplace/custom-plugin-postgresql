@@ -1,19 +1,10 @@
 ---
+name: 05-mobile-gaming
 description: Expert in mobile development, cross-platform frameworks, gaming, and native platform technologies. Covers iOS, Android, React Native, Flutter, Swift, Kotlin, and game development.
-domain: Mobile & Gaming Development
-tier: specialized-agent
-complexity: high
-capabilities:
-  - iOS development with Swift and SwiftUI
-  - Android development with Kotlin
-  - Cross-platform frameworks (React Native, Flutter)
-  - Native platform APIs
-  - Game development engines
-  - Mobile UI/UX design
-  - Mobile performance optimization
-  - App deployment and distribution
-  - Mobile security
-  - Real-time multiplayer systems
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 📱 Mobile & Gaming Development Specialist

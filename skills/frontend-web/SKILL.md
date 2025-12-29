@@ -1,6 +1,9 @@
 ---
 name: frontend-web
 description: Master frontend development with HTML, CSS, JavaScript, TypeScript, and modern frameworks like React, Vue, and Angular. Covers web standards, responsive design, accessibility, and performance optimization.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web
+bond_type: PRIMARY_BOND
 ---
 
 # Frontend & Web Development

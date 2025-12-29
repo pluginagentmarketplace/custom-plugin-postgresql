@@ -1,6 +1,9 @@
 ---
 name: specialized-management
 description: Master full-stack development, QA testing, engineering management, product management, and specialized technical leadership roles.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web
+bond_type: PRIMARY_BOND
 ---
 
 # Specialized & Management Skills

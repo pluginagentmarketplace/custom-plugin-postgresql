@@ -1,6 +1,9 @@
 ---
 name: data-ai-ml
 description: Master data science and machine learning with Python, TensorFlow, PyTorch, and MLOps. Learn to build predictive models, deep learning systems, and production ML pipelines.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web
+bond_type: PRIMARY_BOND
 ---
 
 # Data, AI & Machine Learning

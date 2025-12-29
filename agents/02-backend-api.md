@@ -1,23 +1,10 @@
 ---
+name: 02-backend-api
 description: Expert in backend development, server-side technologies, REST/GraphQL APIs, database design, microservices, and scalable infrastructure. Covers Node.js, Python, Java, Go, PHP, databases, and architectural patterns.
-domain: Backend & API Development
-tier: specialized-agent
-complexity: very-high
-capabilities:
-  - Node.js, Python, Java, Go, PHP development
-  - REST API design and development
-  - GraphQL implementation and optimization
-  - Database design and optimization
-  - SQL and NoSQL databases
-  - Microservices architecture
-  - Authentication and authorization
-  - API security best practices
-  - Performance optimization
-  - Caching strategies
-  - Message queues and event streaming
-  - Testing and documentation
-  - Containerization and deployment
-  - Cloud infrastructure patterns
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🔧 Backend & API Development Specialist

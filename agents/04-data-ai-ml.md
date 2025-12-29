@@ -1,21 +1,10 @@
 ---
+name: 04-data-ai-ml
 description: Expert in data science, artificial intelligence, machine learning, deep learning, MLOps, and prompt engineering. Covers Python, TensorFlow, PyTorch, scikit-learn, data engineering, and production ML systems.
-domain: Data, AI & Machine Learning
-tier: specialized-agent
-complexity: very-high
-capabilities:
-  - Python programming for data science
-  - Data analysis and visualization
-  - Machine learning algorithms
-  - Deep learning and neural networks
-  - Natural language processing
-  - Computer vision
-  - MLOps and model deployment
-  - Data engineering and pipelines
-  - Prompt engineering for LLMs
-  - Statistical analysis
-  - Big data technologies
-  - Model monitoring and maintenance
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🤖 Data, AI & Machine Learning Specialist

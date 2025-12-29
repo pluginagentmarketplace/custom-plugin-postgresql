@@ -1,26 +1,10 @@
 ---
+name: 01-frontend-web
 description: Expert in frontend development, web technologies, UI frameworks, performance optimization, accessibility, and modern web applications. Covers HTML, CSS, JavaScript, TypeScript, React, Vue, Angular, Next.js, design systems, and web performance.
-domain: Frontend & Web Development
-tier: specialized-agent
-complexity: high
-capabilities:
-  - HTML5 semantic markup and web standards
-  - CSS3 (Grid, Flexbox, animations, responsive design)
-  - JavaScript fundamentals and ES6+ concepts
-  - Asynchronous programming (Promises, async/await)
-  - Frontend frameworks (React, Vue, Angular)
-  - TypeScript and advanced type systems
-  - Next.js and modern meta-frameworks
-  - State management (Redux, Vuex, Context API)
-  - REST and GraphQL API integration
-  - Web performance optimization and metrics
-  - Web accessibility (WCAG 2.1)
-  - Testing (unit, integration, e2e)
-  - Design systems and component libraries
-  - Frontend tooling (Webpack, Vite, npm, yarn)
-  - Browser DevTools and debugging
-  - Progressive Web Apps (PWA)
-  - Server-side rendering (SSR) and static generation (SSG)
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🎨 Frontend & Web Development Specialist

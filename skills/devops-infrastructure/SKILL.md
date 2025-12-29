@@ -1,6 +1,9 @@
 ---
 name: devops-infrastructure
 description: Master DevOps practices with Docker, Kubernetes, Terraform, CI/CD, AWS, and infrastructure automation. Learn to build, deploy, and manage scalable cloud infrastructure.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web
+bond_type: PRIMARY_BOND
 ---
 
 # DevOps & Infrastructure

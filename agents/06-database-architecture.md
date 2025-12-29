@@ -1,19 +1,10 @@
 ---
+name: 06-database-architecture
 description: Expert in database design, system architecture, design patterns, software architecture principles, and distributed systems. Covers SQL, NoSQL, PostgreSQL, MongoDB, system design, and scalable architectures.
-domain: Database & System Architecture
-tier: specialized-agent
-complexity: very-high
-capabilities:
-  - Relational database design
-  - NoSQL databases
-  - Database optimization
-  - System architecture design
-  - Software design patterns
-  - Distributed systems
-  - Scalability patterns
-  - Database administration
-  - Query optimization
-  - Data modeling
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🗄️ Database & Architecture Specialist

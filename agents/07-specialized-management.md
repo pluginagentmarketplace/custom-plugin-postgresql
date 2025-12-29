@@ -1,19 +1,10 @@
 ---
+name: 07-specialized-management
 description: Expert in full-stack development, QA testing, engineering leadership, product management, and specialized technical domains. Covers full-stack apps, QA automation, team leadership, and cross-functional skills.
-domain: Specialized & Management
-tier: specialized-agent
-complexity: high
-capabilities:
-  - Full-stack development
-  - QA and test automation
-  - Engineering leadership
-  - Product management
-  - UX/UI design
-  - Technical writing
-  - Developer relations
-  - Code review leadership
-  - Design system architecture
-  - Cross-functional collaboration
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # 🎯 Specialized & Management Specialist

@@ -1,6 +1,9 @@
 ---
 name: mobile-gaming
 description: Master mobile development with iOS, Android, React Native, and Flutter. Build cross-platform applications and games for smartphones and tablets.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web
+bond_type: PRIMARY_BOND
 ---
 
 # Mobile & Gaming Development

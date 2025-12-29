@@ -1,6 +1,9 @@
 ---
 name: backend-api
 description: Master backend development with Node.js, Python, Java, Go, and PHP. Learn API design, database optimization, authentication, microservices, and server-side best practices.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web
+bond_type: PRIMARY_BOND
 ---
 
 # Backend & API Development
