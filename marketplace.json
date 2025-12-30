@@ -1,7 +1,7 @@
 {
   "name": "postgresql-development-assistant",
-  "version": "2.0.0",
-  "description": "Comprehensive PostgreSQL database plugin with 8 specialized agents and 12 Golden Format skills",
+  "version": "3.0.0",
+  "description": "Production-grade PostgreSQL 16+ plugin with 8 specialized agents, 12 atomic skills, and 4 CLI commands for queries, optimization, administration, DevOps, and advanced features",
   "author": {
     "name": "Dr. Umit Kacar & Muhsin Elcicek",
     "email": "kacarumit.phd@gmail.com"
@@ -17,7 +17,8 @@
     "replication",
     "performance",
     "dba",
-    "roadmap.sh"
+    "production",
+    "postgresql-16"
   ],
   "categories": [
     "database",
@@ -28,5 +29,13 @@
   "eqhm_enabled": true,
   "agents_count": 8,
   "skills_count": 12,
-  "commands_count": 4
+  "commands_count": 4,
+  "features": {
+    "type_safe_schemas": true,
+    "troubleshooting_guides": true,
+    "error_handling_tables": true,
+    "test_templates": true,
+    "retry_logic_patterns": true
+  },
+  "postgresql_version": "16+"
 }

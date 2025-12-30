@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "name": "postgresql-development-assistant",
-  "version": "2.1.0",
-  "description": "Comprehensive PostgreSQL plugin with 8 specialized agents and 12 Golden Format skills for queries, optimization, administration, DevOps, and advanced features",
+  "version": "3.0.0",
+  "description": "Production-grade PostgreSQL 16+ plugin with 8 specialized agents, 12 atomic skills, and 4 CLI commands. Includes type-safe schemas, comprehensive troubleshooting, and 2024-2025 best practices.",
   "author": {
     "name": "Dr. Umit Kacar & Muhsin Elcicek",
     "email": "kacarumit.phd@gmail.com"
@@ -19,7 +19,8 @@
     "performance",
     "administration",
     "backup",
-    "docker"
+    "docker",
+    "production"
   ],
   "agents": [
     "./agents/01-postgresql-fundamentals.md",
