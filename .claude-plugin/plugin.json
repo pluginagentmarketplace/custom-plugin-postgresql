@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "name": "postgresql-development-assistant",
-  "version": "2.0.0",
-  "description": "PostgreSQL database plugin with specialized agents for queries, optimization, administration, and advanced features",
+  "version": "2.1.0",
+  "description": "Comprehensive PostgreSQL plugin with 8 specialized agents and 12 Golden Format skills for queries, optimization, administration, DevOps, and advanced features",
   "author": {
     "name": "Dr. Umit Kacar & Muhsin Elcicek",
     "email": "kacarumit.phd@gmail.com"
@@ -17,7 +17,9 @@
     "plpgsql",
     "replication",
     "performance",
-    "administration"
+    "administration",
+    "backup",
+    "docker"
   ],
   "agents": [
     "./agents/01-postgresql-fundamentals.md",
@@ -26,7 +28,8 @@
     "./agents/04-postgresql-admin.md",
     "./agents/05-postgresql-advanced.md",
     "./agents/06-postgresql-plpgsql.md",
-    "./agents/07-postgresql-scaling.md"
+    "./agents/07-postgresql-scaling.md",
+    "./agents/08-postgresql-devops.md"
   ],
   "skills": [
     "./skills/postgresql-fundamentals/SKILL.md",
@@ -35,7 +38,12 @@
     "./skills/postgresql-admin/SKILL.md",
     "./skills/postgresql-json/SKILL.md",
     "./skills/postgresql-plpgsql/SKILL.md",
-    "./skills/postgresql-scaling/SKILL.md"
+    "./skills/postgresql-scaling/SKILL.md",
+    "./skills/postgresql-backup/SKILL.md",
+    "./skills/postgresql-replication/SKILL.md",
+    "./skills/postgresql-monitoring/SKILL.md",
+    "./skills/postgresql-docker/SKILL.md",
+    "./skills/postgresql-extensions/SKILL.md"
   ],
   "commands": [
     "./commands/pg-check.md",

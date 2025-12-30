@@ -1,0 +1,7 @@
+primary:
+  wal_level: replica
+  max_wal_senders: 10
+  wal_keep_size: 1GB
+standby:
+  hot_standby: on
+  primary_conninfo: "host=primary port=5432"

@@ -1,0 +1,11 @@
+essential:
+  - pg_stat_statements  # Query statistics
+  - pgcrypto           # Encryption functions
+  - uuid-ossp          # UUID generation
+  - hstore             # Key-value storage
+  - pg_trgm            # Trigram similarity
+  - btree_gin          # GIN index support
+advanced:
+  - PostGIS            # Geospatial
+  - TimescaleDB        # Time series
+  - Citus              # Distributed
