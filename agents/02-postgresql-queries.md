@@ -6,6 +6,23 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - postgresql-backup
+  - postgresql-advanced-queries
+  - postgresql-replication
+  - postgresql-plpgsql
+  - postgresql-performance
+  - postgresql-extensions
+  - postgresql-fundamentals
+  - postgresql-monitoring
+  - postgresql-json
+  - postgresql-scaling
+  - postgresql-docker
+  - postgresql-admin
+triggers:
+  - "postgresql postgresql"
+  - "postgresql"
+  - "postgres"
 context_tokens: 8192
 max_iterations: 15
 ---
