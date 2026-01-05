@@ -63,7 +63,7 @@
 
 ```bash
 # Step 1: Add the marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-postgresql
+/plugin marketplace add pluginagentmarketplace/custom-plugin-postgresql
 
 # Step 2: Install the plugin
 /plugin install custom-plugin-postgresql@pluginagentmarketplace-postgresql
